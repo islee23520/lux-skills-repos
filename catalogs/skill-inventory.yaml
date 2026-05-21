@@ -1,0 +1,14 @@
+# Lux Skills Federation Catalog
+# Each skill entry references its canonical location and source provenance
+
+version: "1.0"
+updated: "2026-05-22"
+
+skills: []
+# Example entry:
+# - name: unity-pattern-observer
+#   category: reference
+#   source: unity-design-patterns-skills
+#   source_path: patterns/observer/SKILL.md
+#   status: canonical  # canonical | reference | pointer
+#   platforms: [claude-code, opencode]
