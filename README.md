@@ -4,7 +4,7 @@ A consolidated game development skills repository for AI coding assistants (Open
 
 ## Overview
 
-This repo curates and federates high-quality game development skills from multiple sources into one reusable library. It follows the architectural patterns established by [Claude Code Game Studios](https://github.com/Donchitos/Claude-Code-Game-Studios) (CCGS), adapting them for the Linalab toolchain.
+This repo curates and federates game development skills from multiple sources into one reusable library. It follows the architectural patterns established by [Claude Code Game Studios](https://github.com/Donchitos/Claude-Code-Game-Studios) (CCGS), adapting them for the Linalab toolchain.
 
 ## What's Inside
 
@@ -26,7 +26,7 @@ This repo curates and federates high-quality game development skills from multip
 ### For OpenCode Users
 ```bash
 # Clone this repo
-git clone <repo-url> ~/workspace/linalab/lux-skills-repos
+git clone https://github.com/islee23520/lux-skills-repos.git ~/workspace/linalab/lux-skills-repos
 
 # Skills are ready in .claude/skills/ and .opencode/skills/
 # Point your OpenCode config at this repo's skills
@@ -35,7 +35,7 @@ git clone <repo-url> ~/workspace/linalab/lux-skills-repos
 ### For Claude Code Users
 ```bash
 # Clone and symlink into your .claude/skills
-git clone <repo-url>
+git clone https://github.com/islee23520/lux-skills-repos.git
 ln -s $(pwd)/lux-skills-repos/.claude/skills/* ~/.claude/skills/
 ```
 
@@ -68,5 +68,5 @@ MIT License - See [LICENSE](./LICENSE)
 
 ## Acknowledgments
 
-- [Donchitos/Claude-Code-Game-Studios](https://github.com/Donchitos/Claude-Code-Game-Studios) - The gold standard game studio AI skills template (49 agents, 73 skills, 12 hooks, 11 rules)
+- [Donchitos/Claude-Code-Game-Studios](https://github.com/Donchitos/Claude-Code-Game-Studios) - Game studio AI skills template (49 agents, 73 skills, 12 hooks, 11 rules)
 - [CatDarkGame/claude-skill-unity-urp](https://github.com/CatDarkGame/claude-skill-unity-urp) - Unity URP RenderGraph skill (available via federation)
